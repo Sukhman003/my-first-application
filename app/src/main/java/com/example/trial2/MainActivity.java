@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
          txt=findViewById(R.id.txt1);
                  btn1.setOnClickListener(view ->  {
-             CharSequence text = "Hello toast from Kapil!";
+             CharSequence text = "Hello toast from Sukhman!";
              int duration = Toast.LENGTH_LONG;
              Toast toast = Toast.makeText(this, text, duration);
                      toast. show() ;
